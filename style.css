@@ -5,47 +5,37 @@ body {
   margin: 0%;
   padding: 0;
 }
-
 p {
   font-size: 20px;
 }
-
 h1 {
   font-size: 50px;
   line-height: 0.5;
   color: rgb(82, 82, 82);
 }
-
 h2 {
   font-size: 20px;
 }
-
 h4 {
   color: gray;
 }
-
 span {
   color: rgb(255, 132, 50);
 }
-
 section {
   display: flex;
   padding: 5%;
 }
-
 .half-width {
   width: 50%;
   padding-top: 10%;
 }
-
 .half-width img {
   padding-left: 20%;
 }
-
 .half-width-asd img {
   padding-top: -7px;
 }
-
 .buttons {
   text-decoration: none;
   color: white;
@@ -53,13 +43,11 @@ section {
   padding: 10px 30px;
   border-radius: 20px;
 }
-
 .second-banner {
   background-image: url(images/shapes/58.jpg);
   background-repeat: no-repeat;
   background-size: 113%;
 }
-
 .third-sac{
   text-align-last: center;
 }
@@ -75,21 +63,17 @@ section {
   height: 80%;
   border-radius: 20px;
 }
-
 .cat{
   height: 100px;
   text-align-last: center;
 }
-
 .card img {
   border-radius: 20px;
 }
-
 .cat label{
   height: 100px;
   font-size: 20px;
 }
-
 .foure-sec {
   height: 500px;
   background-color: gray;
@@ -97,12 +81,10 @@ section {
 .contain {
   text-overflow: initial;
 }
-
 button{
-  color: black;
-  background-color: orange;
+  color: rgb(41, 39, 39);
+  background-color: rgb(255, 166, 33);
 }
-
 footer {
   color: rgb(221, 221, 221);
   text-align: center;
