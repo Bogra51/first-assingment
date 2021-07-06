@@ -3,52 +3,65 @@ body {
   font-size: 30px;
   text-align: justify;
   margin: 0%;
+  padding: 0;
 }
+
 p {
-  font-size: 15px;
+  font-size: 20px;
 }
+
 h1 {
   font-size: 50px;
   line-height: 0.5;
+  color: rgb(82, 82, 82);
 }
+
 h2 {
   font-size: 20px;
 }
+
 h4 {
   color: gray;
 }
-.center {
-  text-align: center;
+
+span {
+  color: rgb(255, 132, 50);
 }
+
 section {
   display: flex;
   padding: 5%;
 }
+
 .half-width {
   width: 50%;
   padding-top: 10%;
 }
-span {
-  color: rgb(255, 132, 50);
+
+.half-width img {
+  padding-left: 20%;
 }
+
+.half-width-asd img {
+  padding-top: -7px;
+}
+
 .buttons {
   text-decoration: none;
   color: white;
   background-image: linear-gradient(orange, tomato);
-  padding: 2%;
+  padding: 10px 30px;
   border-radius: 20px;
 }
 
 .second-banner {
   background-image: url(images/shapes/58.jpg);
   background-repeat: no-repeat;
-  background-size: 120%;
+  background-size: 113%;
 }
-.half-width img {
-  padding-left: 20%;
-}
-.half-width-asd img {
-  padding-top: -7px;
+
+.third-sac{
+  text-align-last: center;
 }
 .third-sec {
   text-align: center;
@@ -58,26 +71,42 @@ span {
   float: left;
   margin-left: 3%;
   padding: 2%;
-}
-.card {
   box-shadow: 5px 7px 40px gray;
   height: 80%;
   border-radius: 20px;
 }
+
+.cat{
+  height: 100px;
+  text-align-last: center;
+}
+
 .card img {
   border-radius: 20px;
 }
-footer {
-  color: rgb(221, 221, 221);
-  text-align: center;
-  padding-top: 5px;
-  background-color: rgb(22, 22, 22);
-  height: 200px;
+
+.cat label{
+  height: 100px;
+  font-size: 20px;
 }
+
 .foure-sec {
   height: 500px;
   background-color: gray;
 }
 .contain {
   text-overflow: initial;
+}
+
+button{
+  color: black;
+  background-color: orange;
+}
+
+footer {
+  color: rgb(221, 221, 221);
+  text-align: center;
+  padding-top: 5px;
+  background-color: rgb(22, 22, 22);
+  height: 200px;
 }
